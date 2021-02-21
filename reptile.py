@@ -11,7 +11,7 @@ class Spider_baidu_image():
         self.headers_image = {
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.\
             3497.81 Safari/537.36','Referer':'http://image.baidu.com/search/index?tn=baiduimage&ipn=r&ct=201326592&cl=2&lm=-1&st=-1&fm=result&fr=&sf=1&fmq=1557124645631_R&pv=&ic=&nc=1&z=&hd=1&latest=0&copyright=0&se=1&showtab=0&fb=0&width=&height=&face=0&istype=2&ie=utf-8&sid=&word=%E8%83%A1%E6%AD%8C'}
-        # self.keyword = '刘亦菲壁纸'
+        # self.keyword = '炉石传说表情包'
         self.keyword = input("请输入搜索图片关键字:")
         self.paginator = int(input("请输入搜索页数，每页30张图片："))
         # self.paginator = 50
